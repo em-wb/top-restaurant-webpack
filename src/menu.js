@@ -1,9 +1,12 @@
 export default function menu(hero) {
-  // const hero = document.querySelector(".hero");
   const menuDiv = document.createElement("div");
   menuDiv.classList.add("menuDiv");
   menuDiv.classList.add("heroChild");
   hero.append(menuDiv);
+
+  const menuH1 = document.createElement("h1");
+  menuH1.textContent = "MENU";
+  menuDiv.append(menuH1);
 
   const menuInfo = document.createElement("p");
   menuInfo.classList.add("menuInfo");
@@ -36,16 +39,6 @@ Smooth and velvety coconut panna cotta topped with fresh mango compote.
 <br/>
 <strong>Dark Chocolate Mousse</strong> <br/>
 Rich and indulgent dark chocolate mousse topped with a dollop of whipped cream.
-<br/><br/>
-<strong>SIDES</strong><br/>
-<strong>Garlic Parmesan Brussels Sprouts</strong> <br/>
-Roasted Brussels sprouts tossed with garlic, Parmesan, and a hint of lemon.
-<br/>
-<strong>Truffle Parmesan Fries</strong> <br/>
-Crispy french fries drizzled with truffle oil and sprinkled with grated Parmesan.
-<br/>
-<strong>Mixed Greens Salad</strong> <br/>
-Mixed greens, cherry tomatoes, cucumber, and radishes with a balsamic vinaigrette.
 <br/><br/>
 <strong>DRINKS</strong><br/>
 <strong>Classic Cappuccino</strong> <br/>

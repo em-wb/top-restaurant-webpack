@@ -2,8 +2,11 @@ export default function contact(hero) {
   const contactDiv = document.createElement("div");
   contactDiv.classList.add("contactDiv");
   contactDiv.classList.add("heroChild");
-
   hero.append(contactDiv);
+
+  const contactH1 = document.createElement("h1");
+  contactH1.textContent = "Contact";
+  contactDiv.append(contactH1);
 
   const iconDiv = document.createElement("div");
   iconDiv.classList.add("iconDiv");
