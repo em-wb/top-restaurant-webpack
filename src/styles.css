@@ -87,6 +87,8 @@ a:hover {
 
 .menuDiv {
   padding: 20px;
+  font-size: 0.8rem;
+  line-height: 1.5;
 }
 
 .menuDiv > h1 {
@@ -101,11 +103,6 @@ a:hover {
 
 .homeDiv > p {
   font: 2rem;
-}
-
-.menuInfo {
-  font-size: 0.6rem;
-  line-height: 1.5;
 }
 
 .heroChild {
