@@ -10,10 +10,11 @@ export default function pageLoad() {
 
   const navlistitems = ["Home", "Menu", "Contact"];
   navlistitems.forEach((itemText) => {
-    const navli = document.createElement("li");
-    navli.textContent = itemText;
-    navli.classList.add("navItems");
-    navUl.append(navli);
+    const navLi = document.createElement("li");
+    navLi.textContent = itemText;
+    navLi.classList.add("navItems");
+    navLi.setAttribute("id", `nav${itemText}`);
+    navUl.append(navLi);
   });
 
   const hero = document.createElement("div");

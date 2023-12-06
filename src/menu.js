@@ -1,7 +1,8 @@
-export default function menu() {
-  const hero = document.querySelector(".hero");
+export default function menu(hero) {
+  // const hero = document.querySelector(".hero");
   const menuDiv = document.createElement("div");
   menuDiv.classList.add("menuDiv");
+  menuDiv.classList.add("heroChild");
   hero.append(menuDiv);
 
   const menuInfo = document.createElement("p");

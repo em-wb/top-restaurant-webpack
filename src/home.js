@@ -1,12 +1,14 @@
-export default function home() {
-  const hero = document.querySelector(".hero");
+export default function home(hero) {
+  const homeDiv = document.createElement("div");
+  homeDiv.classList.add("heroChild");
 
+  hero.append(homeDiv);
   const h1 = document.createElement("h1");
   h1.textContent = "Best food for your taste";
-  hero.append(h1);
+  homeDiv.append(h1);
 
   const p = document.createElement("p");
   p.textContent =
     "Discover delicious plates in our friendly, neighbourhood cafe";
-  hero.append(p);
+  homeDiv.append(p);
 }

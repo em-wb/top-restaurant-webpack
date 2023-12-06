@@ -1,7 +1,8 @@
-export default function contact() {
-  const hero = document.querySelector(".hero");
+export default function contact(hero) {
   const contactDiv = document.createElement("div");
   contactDiv.classList.add("contactDiv");
+  contactDiv.classList.add("heroChild");
+
   hero.append(contactDiv);
 
   const iconDiv = document.createElement("div");
