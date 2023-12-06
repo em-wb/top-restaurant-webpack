@@ -20,28 +20,19 @@ export default function pageLoad() {
   hero.classList.add("hero");
   content.append(hero);
 
-  const h1 = document.createElement("h1");
-  h1.textContent = "Best food for your taste";
-  hero.append(h1);
+  const footer = document.createElement("footer");
+  content.append(footer);
 
-  const p = document.createElement("p");
-  p.textContent =
-    "Discover delicious plates in our friendly, neighbourhood cafe";
-  hero.append(p);
-  //         our friendly, neighbourhood cafe"
-  // <div class="navbar">NAVBAR</div>
-  //   <div class="hero">
-  //     <div class="hero-text">
-  //       <img src="../src/images/herobg.png" alt="" />
-  //       <h1>Best food for your taste</h1>
-  //       <p>
-  //         Discover our delicious plates and create unforgettable moments in
-  //         our friendly, neighbourhood cafe
-  //       </p>
-  //       <div class="button-container">
-  //         <button class="book-button">Book a table</button>
-  //         <button class="menu-button">Explore menu</button>
-  //       </div>
-  //     </div>
-  //   </div>
+  const iconClasses = ["fa-facebook", "fa-instagram", "fa-whatsapp"];
+  iconClasses.forEach((iconClass) => {
+    const icon = document.createElement("i");
+    icon.classList.add("fa-brands");
+    icon.classList.add(iconClass);
+    footer.append(icon);
+  });
+
+  const footerA = document.createElement("a");
+  footerA.href = "#";
+  footerA.textContent = "Coded by Emily";
+  footer.append(footerA);
 }
