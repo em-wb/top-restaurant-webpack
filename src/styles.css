@@ -6,6 +6,7 @@
 body {
   height: 100vh;
   font-family: "Barlow", sans-serif;
+  font-size: 20px;
 }
 
 h1 {
@@ -15,10 +16,6 @@ h1 {
 h1,
 strong {
   font-family: "Tenor Sans", sans-serif;
-}
-
-p {
-  font-size: 1.5rem;
 }
 
 .hero {
@@ -43,6 +40,11 @@ li {
   list-style: none;
 }
 
+li:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
 .navBar {
   display: flex;
   justify-content: end;
@@ -54,11 +56,11 @@ li {
 }
 
 .menuInfo {
-  font-size: 12px;
-  text-align: center;
+  font-size: 0.6rem;
+  line-height: 1.5;
 }
 
-.contactDiv {
+.heroChild {
   text-align: center;
 }
 
