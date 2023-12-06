@@ -24,7 +24,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 80vh;
+  min-height: 90vh;
 }
 
 ul {
@@ -41,4 +41,26 @@ li {
   display: flex;
   justify-content: end;
   padding: 1%;
+}
+
+.menuDiv {
+  padding: 20px;
+}
+
+.menuInfo {
+  font-size: 12px;
+  text-align: center;
+}
+
+.contactDiv {
+  text-align: center;
+}
+
+.iconDiv {
+  margin: 20px;
+}
+
+.iconDiv > i {
+  font-size: 30px;
+  padding: 10px;
 }
