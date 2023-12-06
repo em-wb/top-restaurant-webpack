@@ -24,12 +24,16 @@ export default function pageLoad() {
   const footer = document.createElement("footer");
   content.append(footer);
 
+  const iconDiv = document.createElement("div");
+  iconDiv.classList.add("iconDiv");
+  footer.append(iconDiv);
+
   const iconClasses = ["fa-facebook", "fa-instagram", "fa-whatsapp"];
   iconClasses.forEach((iconClass) => {
     const icon = document.createElement("i");
     icon.classList.add("fa-brands");
     icon.classList.add(iconClass);
-    footer.append(icon);
+    iconDiv.append(icon);
   });
 
   const footerA = document.createElement("a");

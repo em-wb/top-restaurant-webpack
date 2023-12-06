@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,6 +17,28 @@ h1 {
 h1,
 strong {
   font-family: "Tenor Sans", sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  height: 5vh;
+}
+
+i {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
 }
 
 .hero {
@@ -40,7 +63,8 @@ li {
   list-style: none;
 }
 
-li:hover {
+li:hover,
+a:hover {
   cursor: pointer;
   opacity: 80%;
 }
@@ -49,6 +73,7 @@ li:hover {
   display: flex;
   justify-content: end;
   padding: 1%;
+  height: 5vh;
 }
 
 .menuDiv {
@@ -64,11 +89,6 @@ li:hover {
   text-align: center;
 }
 
-.iconDiv {
+.contactDiv > .iconDiv {
   margin: 20px;
-}
-
-.iconDiv > i {
-  font-size: 30px;
-  padding: 10px;
 }
