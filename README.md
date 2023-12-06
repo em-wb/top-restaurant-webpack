@@ -1,4 +1,4 @@
-##Restaurant project using Webpack
+## Restaurant project using Webpack
 
 From The Odin Project
 
