@@ -5,6 +5,10 @@ export default function pageLoad() {
   navBar.classList.add("navBar");
   content.append(navBar);
 
+  const bistro = document.createElement("div");
+  bistro.textContent = "Bertie's Bistro";
+  navBar.append(bistro);
+
   const navUl = document.createElement("ul");
   navBar.append(navUl);
 

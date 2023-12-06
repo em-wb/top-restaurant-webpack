@@ -8,6 +8,10 @@ body {
   height: 100vh;
   font-family: "Barlow", sans-serif;
   font-size: 20px;
+  background-image: url(./images/herobg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
@@ -20,10 +24,14 @@ strong {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 1%;
+  background-color: white;
 }
 
 i {
@@ -45,21 +53,18 @@ a:visited {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(./images/herobg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
   min-height: 85vh;
 }
 
 ul {
   display: flex;
-  width: 33%;
   justify-content: space-between;
 }
 
 li {
   list-style: none;
+  padding-left: 10px;
 }
 
 li:hover,
@@ -70,8 +75,14 @@ a:hover {
 
 .navBar {
   display: flex;
-  justify-content: end;
-  padding: 1%;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+}
+
+.navBar > div {
+  font-weight: 800;
 }
 
 .menuDiv {
@@ -81,6 +92,15 @@ a:hover {
 .menuDiv > h1 {
   font-size: 1rem;
   margin-bottom: 2%;
+}
+
+.homeDiv > h1 {
+  font-size: 4rem;
+  margin-bottom: 5%;
+}
+
+.homeDiv > p {
+  font: 2rem;
 }
 
 .menuInfo {
@@ -101,8 +121,11 @@ a:hover {
     font-size: 15px;
   }
 
+  .homeDiv > h1 {
+    font-size: 3rem;
+  }
+
   ul {
-    width: 100%;
     justify-content: space-around;
   }
 
