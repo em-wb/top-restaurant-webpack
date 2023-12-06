@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 h1,
@@ -23,8 +23,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 10px;
-  height: 5vh;
+  padding: 1%;
 }
 
 i {
@@ -50,12 +49,12 @@ a:visited {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 90vh;
+  min-height: 85vh;
 }
 
 ul {
   display: flex;
-  width: 50%;
+  width: 33%;
   justify-content: space-between;
 }
 
@@ -73,7 +72,9 @@ a:hover {
   display: flex;
   justify-content: end;
   padding: 1%;
-  height: 5vh;
+}
+
+.homeDiv {
 }
 
 .menuDiv {
@@ -91,4 +92,19 @@ a:hover {
 
 .contactDiv > .iconDiv {
   margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  ul {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .hero {
+    padding: 0 3%;
+  }
 }

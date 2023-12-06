@@ -1,6 +1,7 @@
 export default function home(hero) {
   const homeDiv = document.createElement("div");
   homeDiv.classList.add("heroChild");
+  homeDiv.classList.add("homeDiv");
 
   hero.append(homeDiv);
   const h1 = document.createElement("h1");
