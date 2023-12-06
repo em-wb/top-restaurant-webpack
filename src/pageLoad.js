@@ -41,7 +41,7 @@ export default function pageLoad() {
   });
 
   const footerA = document.createElement("a");
-  footerA.href = "#";
+  footerA.href = "https://github.com/em-wb/top-restaurant-webpack";
   footerA.textContent = "Coded by Emily";
   footer.append(footerA);
 }
