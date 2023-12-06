@@ -5,10 +5,16 @@
 
 body {
   height: 100vh;
+  font-family: "Barlow", sans-serif;
 }
 
 h1 {
   font-size: 3.5rem;
+}
+
+h1,
+strong {
+  font-family: "Tenor Sans", sans-serif;
 }
 
 p {
