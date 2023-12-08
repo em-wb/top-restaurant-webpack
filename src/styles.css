@@ -99,7 +99,7 @@ p {
 }
 
 .menuDiv > p {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .homeDiv > h1 {
@@ -126,7 +126,7 @@ p {
 
   .menuDiv {
     padding: 15px;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     line-height: 1.5;
   }
 
