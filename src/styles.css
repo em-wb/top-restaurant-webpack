@@ -70,6 +70,9 @@ a:hover {
   opacity: 80%;
 }
 
+p {
+  font-size: 2rem;
+}
 .navBar {
   display: flex;
   justify-content: space-around;
@@ -95,13 +98,13 @@ a:hover {
   margin-bottom: 2%;
 }
 
-.homeDiv > h1 {
-  font-size: 4rem;
-  margin-bottom: 5%;
+.menuDiv > p {
+  font-size: 0.8rem;
 }
 
-.homeDiv > p {
-  font: 2rem;
+.homeDiv > h1 {
+  font-size: 5rem;
+  margin-bottom: 5%;
 }
 
 .heroChild {
@@ -127,19 +130,19 @@ a:hover {
     line-height: 1.5;
   }
 
-  ul {
-    justify-content: space-around;
-  }
-
-  li {
-    padding-left: 20px;
-  }
-
   .hero {
     padding: 0 3%;
     background-image: url(./images/herobg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 28%;
+  }
+
+  ul {
+    justify-content: space-around;
+  }
+
+  li {
+    padding-left: 20px;
   }
 }
